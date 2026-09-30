@@ -1,0 +1,28 @@
+# 编译产物
+merge-and-split
+merge-and-split.exe
+*.7z
+*.zip
+*.tar.gz
+
+# Go 编译缓存
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go 模块
+/vendor/
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 临时文件夹
+Release/
